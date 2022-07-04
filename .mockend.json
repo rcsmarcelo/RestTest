@@ -3,7 +3,7 @@
     "Pk": { "int": {"min": 0, "max": 1000000} },
 	"Desc": { "string": {} },
 	"Logradouro" : { "string": {} },
-	"Numero" : { "string": {} },
+	"Numero" : { "int": {"min": 0, "max": 10000} },
 	"Bairro" : { "string": {} },
 	"Cidade" : { "string": {} },
 	"Uf" : { "string": {} },
