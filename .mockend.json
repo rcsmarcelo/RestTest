@@ -10,6 +10,6 @@
 	"Dormitorios" : { "Integer": {} },
 	"Suites" : { "Integer": {} },
 	"Area" : { "Decimal": {} },
-	"Valor" : { "Integer": {} },
+	"Valor" : { "Integer": {} }
   }
 }
