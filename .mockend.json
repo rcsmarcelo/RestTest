@@ -1,15 +1,15 @@
 {
   "Imovel": {
-    "Pk": { "int": {} },
+    "Pk": { "int": {"min": 0, "max": 1000000} },
 	"Desc": { "string": {} },
 	"Logradouro" : { "string": {} },
 	"Numero" : { "string": {} },
 	"Bairro" : { "string": {} },
 	"Cidade" : { "string": {} },
 	"Uf" : { "string": {} },
-	"Dormitorios" : { "int": {} },
-	"Suites" : { "int": {} },
-	"Area" : { "int": {} },
-	"Valor" : { "int": {} }
+	"Dormitorios" : { "int": {"min": 0, "max": 100} },
+	"Suites" : { "int": {"min": 0, "max": 100} },
+	"Area" : { "int": {"min": 0, "max": 10000} },
+	"Valor" : { "int": {"min": 0, "max": 10000000} }
   }
 }
