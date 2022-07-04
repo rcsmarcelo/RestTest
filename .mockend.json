@@ -1,0 +1,15 @@
+{
+  "Imovel": {
+    "Pk": { "Long": {} },
+	"Desc": { "String": {} },
+	"Logradouro" : { "String": {} },
+	"Numero" : { "String": {} },
+	"Bairro" : { "String": {} },
+	"Cidade" : { "String": {} },
+	"Uf" : { "String": {} },
+	"Dormitorios" : { "Integer": {} },
+	"Suites" : { "Integer": {} },
+	"Area" : { "Decimal": {} },
+	"Valor" : { "Integer": {} },
+  }
+}
